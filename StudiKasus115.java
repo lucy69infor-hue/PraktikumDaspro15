@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class StudiKasus115 {
+    public static void main (String [] args){
+        Scanner scanner = new Scanner(System.in);
+
+        int hargaPerCup = 18000;
+        int total_harga;
+        int diskon;
+        int total_Bayar;
+        int kembalian;
+        int kurang;
+        int jml_Cup;
+        int uang_bayar;
+
+        System.out.println("Jumlah cup yang dibeli : ");
+        jml_Cup = scanner.nextInt();
+        System.out.println("Uang Pembayaran : ");
+        uang_bayar = scanner.nextInt();
+
+        total_harga = jml_Cup * hargaPerCup;
+        if (total_harga >= 100000) {
+            diskon = total_harga * 10 / 100;
+        } else {
+            diskon = 0;
+        }
+        total_Bayar = total_harga - diskon;
+
+        System.out.println("Total Harga : " + total_harga);
+        System.out.println("Diskon : " + diskon);
+        System.out.println("Total bayar : " + total_Bayar);
+
+        if (uang_bayar >= total_Bayar) {
+            kembalian = uang_bayar - total_Bayar;
+            System.out.println("Kembalian : " + kembalian);
+        } else {
+            kurang = total_Bayar - uang_bayar;
+            System.out.println("Uang anda tidak cukup,kurang Rp" + kurang);
+        }
+
+        scanner.close();
+    }
+}
