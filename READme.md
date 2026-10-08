@@ -1,9 +1,10 @@
 Nama  : Muhammad Iqbal Maulana Nurwakhid
 NIM   : 264107020113
 Kelas : TI-1A
-Hasil Uji Studi Kasus 2 oleh <Nama>
-| No | Jenis | Dokumen | Juara/Dana | Output | Sesuai? |
-|----|-------|---------|------------|---------|---------|
-|    |       |         |            |         |         |
-|    |       |         |            |         |         |
-|    |       |         |            |         |         |
+Hasil Uji Studi Kasus 2 oleh Teguh Marcelino Putra Yuwan Dwi Hayunanto
+| No |  Jenis  | Dokumen | Juara/Dana |     Output    | Sesuai? | 
+|----|---------|---------|------------|---------------|---------| 
+| 1  | BAKORMA | 3       | 1          | Tidak Berhak  | Ya      |
+| 2  | Mandiri | 4       | 0          | Tidak Berhak  | Ya      |
+| 3  |   pkm   | 4       | 1          |    Berhak     | Ya      |
+| 4  | Lainnya | 4       |      ?     | Tidak Berhak  | Ya      |
