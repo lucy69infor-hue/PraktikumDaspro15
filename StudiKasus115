@@ -12,14 +12,8 @@ public class StudiKasus115 {
         int jml_Cup;
         int uang_bayar;
 
-        System.out.println("Jumlah cup yang dibeli : ");
-        jml_Cup = scanner.nextInt;
-        System.out.println("Uang Pembayaran : ");
-        uang_Bayar = scanner.nextInt;
+        
 
-        total_harga = jml_Cup * hargaPerCup
-        if (total_harga >= 100000) {
-
-        }
+        
     }
 }
